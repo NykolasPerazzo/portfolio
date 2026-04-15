@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nykolas Perazzo | Desenvolvedor Web de Alta Conversão</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">NP<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato" class="btn-small">Solicitar Orçamento</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero container">
+        <div class="hero-content">
+            <span class="badge">Disponível para novos projetos</span>
+            <h1>Crio sites que <span id="typing-text"></span></h1>
+            <p>Transformo sua presença digital em uma máquina de vendas com design premium e performance extrema.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/53984283663" class="btn-primary">Quero meu site agora <i data-lucide="arrow-right"></i></a>
+                <a href="#portfolio" class="btn-secondary">Ver portfólio</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicos" class="services container">
+        <h2 class="section-title">Soluções que geram lucro</h2>
+        <div class="grid-services">
+            <div class="card">
+                <i data-lucide="scissors"></i>
+                <h3>Barbearias Premium</h3>
+                <p>Agendamento online e visual que transmite a autoridade do seu corte.</p>
+            </div>
+            <div class="card">
+                <i data-lucide="rocket"></i>
+                <h3>Landing Pages</h3>
+                <p>Focadas 100% em conversão para campanhas de tráfego pago (Ads).</p>
+            </div>
+            <div class="card">
+                <i data-lucide="shopping-bag"></i>
+                <h3>E-commerce</h3>
+                <p>Lojas virtuais fluidas que facilitam a compra e aumentam o ticket médio.</p>
+            </div>
+            <div class="card">
+                <i data-lucide="briefcase"></i>
+                <h3>Sites Institucionais</h3>
+                <p>Posicionamento profissional para empresas que buscam credibilidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio container scroll">
+        <h2 class="section-title">Projetos Selecionados</h2>
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(45deg, #1a1a1a, #2e1065)">
+                <img src="./assets/image/pierclothing.png" alt="">
+                </div>
+                <div class="project-info">
+                    <span>E-commerce</span>
+                    <h3>Luxury Watch Store</h3>
+                    <p>Interface minimalista com foco em produtos de alto valor.</p>
+                    <a href="#">Ver detalhes <i data-lucide="external-link"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img" style="background: linear-gradient(45deg, #0f172a, #1e40af)">
+                </div>
+                <div class="project-info">
+                    <span>Landing Page</span>
+                    <h3>SaaS TechFlow</h3>
+                    <p>Página de vendas com carregamento em menos de 1s.</p>
+                    <a href="#">Ver detalhes <i data-lucide="external-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-final container">
+        <div class="cta-box">
+            <h2>Pronto para elevar o nível do seu negócio?</h2>
+            <p>Pare de perder clientes para a concorrência por causa de um site amador.</p>
+            <a href="https://wa.me/seunumeroaqui" class="btn-primary glow">Falar com Nykolas no WhatsApp</a>
+        </div>
+    </section>
+
+    <section id="politica" class="investment container">
+    <div class="investment-card">
+        <div class="investment-content">
+            <span class="warning-badge"><i data-lucide="shield-alert"></i> Política de Trabalho</span>
+            <h2>Valorizamos o seu negócio, <br><span>valorize o nosso tempo.</span></h2>
+            <p>
+                Projetos de alto nível exigem recursos, tecnologia de ponta e dedicação total. 
+                Por isso, seguimos uma política rigorosa de início de projeto:
+            </p>
+            
+            <ul class="policy-list">
+                <li>
+                    <i data-lucide="check-circle-2"></i>
+                    <div>
+                        <strong>Sem entrada, sem código:</strong> O desenvolvimento só inicia mediante confirmação do investimento inicial.
+                    </div>
+                </li>
+                <li>
+                    <i data-lucide="check-circle-2"></i>
+                    <div>
+                        <strong>Foco em Resultados, não em Promessas:</strong> Não trabalhamos com modelos de "pagar depois que vender". Construímos ativos, não apostas.
+                    </div>
+                </li>
+                <li>
+                    <i data-lucide="check-circle-2"></i>
+                    <div>
+                        <strong>Exclusividade Mensal:</strong> Atendemos um número limitado de clientes para garantir qualidade máxima. Sua vaga é reservada pelo seu compromisso.
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="investment-visual">
+            <div class="price-tag">
+                <p>Status do Serviço</p>
+                <span class="status-premium">100% PROFISSIONAL</span>
+                <hr>
+                <p class="disclaimer">"O custo do amadorismo é muito maior que o investimento em um especialista."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="processo" class="process container">
+    <h2 class="section-title">Como transformamos sua ideia em lucro</h2>
+    <p class="section-subtitle">Um método claro, direto e sem enrolação.</p>
+
+    <div class="process-steps">
+        <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-content">
+                <h3>Briefing Estratégico</h3>
+                <p>Reunião rápida para entender seu público, seus objetivos e o que faz seu concorrente perder para você.</p>
+                <span class="step-tag">Alinhamento</span>
+            </div>
+        </div>
+
+        <div class="step-card highlight">
+            <div class="step-number">02</div>
+            <div class="step-content">
+                <h3>Acordo e Setup</h3>
+                <p>Formalização do projeto e <strong>investimento inicial</strong>. Aqui garantimos sua vaga na agenda e iniciamos a infraestrutura.</p>
+                <span class="step-tag gold">Início Real</span>
+            </div>
+            <div class="glow-line"></div>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-content">
+                <h3>Design & Dev</h3>
+                <p>Criação da interface premium e código de alta performance focado em conversão e velocidade extrema.</p>
+                <span class="step-tag">Mão na massa</span>
+            </div>
+        </div>
+
+        <div class="step-card">
+            <div class="step-number">04</div>
+            <div class="step-content">
+                <h3>Entrega & Sucesso</h3>
+                <p>Seu site vai ao ar. Fazemos o treinamento para você gerir e celebramos a sua nova máquina de vendas.</p>
+                <span class="step-tag">Foguete</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="precos" class="pricing container">
+    <div class="pricing-header">
+        <span class="badge">Investimento Estratégico</span>
+        <h2>O preço do amadorismo <br><span>é perder vendas todos os dias.</span></h2>
+    </div>
+
+    <div class="pricing-grid">
+        <div class="price-card">
+            <div class="price-top">
+                <h4>Landing Page</h4>
+                <p>Ideal para tráfego pago e lançamentos.</p>
+                <div class="value">R$ 1.497<span>/único</span></div>
+            </div>
+            <ul class="price-features">
+                <li><i data-lucide="check"></i> Design Exclusivo (Zero Templates)</li>
+                <li><i data-lucide="zap"></i> Performance Ultra Rápida</li>
+                <li><i data-lucide="smartphone"></i> 100% Responsivo</li>
+                <li><i data-lucide="message-circle"></i> Botão WhatsApp Flutuante</li>
+            </ul>
+            <a href="https://wa.me/seu-numero" class="btn-secondary">Escolher este</a>
+        </div>
+
+        <div class="price-card featured">
+            <div class="popular-tag">MAIS SOLICITADO</div>
+            <div class="price-top">
+                <h4>Site Institucional + Blog</h4>
+                <p>Para empresas que buscam autoridade total.</p>
+                <div class="value">R$ 2.897<span>/único</span></div>
+            </div>
+            <ul class="price-features">
+                <li><i data-lucide="check"></i> Até 5 Páginas Estratégicas</li>
+                <li><i data-lucide="search"></i> SEO Básico para Google</li>
+                <li><i data-lucide="shield-check"></i> Certificado SSL Incluso</li>
+                <li><i data-lucide="bar-chart"></i> Integração Google Analytics</li>
+            </ul>
+            <a href="https://wa.me/seu-numero" class="btn-primary glow">Quero escalar meu negócio</a>
+        </div>
+
+        <div class="price-card">
+            <div class="price-top">
+                <h4>E-commerce / App Web</h4>
+                <p>Plataformas robustas e escaláveis.</p>
+                <div class="value">R$ 4.997<span>+</span></div>
+            </div>
+            <ul class="price-features">
+                <li><i data-lucide="check"></i> Gestão de Inventário</li>
+                <li><i data-lucide="credit-card"></i> Checkout Transparente</li>
+                <li><i data-lucide="database"></i> Painel Administrativo</li>
+                <li><i data-lucide="clock"></i> Suporte Prioritário</li>
+            </ul>
+            <a href="https://wa.me/seu-numero" class="btn-secondary">Consultar Projeto</a>
+        </div>
+    </div>
+
+    <p class="pricing-footer">
+        <i data-lucide="info"></i> Todos os projetos exigem <strong>50% de entrada</strong> para reserva de agenda.
+    </p>
+</section>
+<section id="promo" class="promo-section container">
+    <div class="promo-container">
+        <div class="promo-badge">OFERTA DE TEMPO LIMITADO</div>
+        <h2>Impulsione seu negócio <br><span>com R$ 500 de desconto</span></h2>
+        
+        <p>Contrate qualquer site este mês e ganhe <strong>Otimização de Velocidade (SEO Speed) + Configuração de Google Meu Negócio</strong> inteiramente grátis.</p>
+
+        <div class="countdown">
+            <div class="time-block">
+                <span id="days">00</span>
+                <p>Dias</p>
+            </div>
+            <div class="time-block">
+                <span id="hours">00</span>
+                <p>Horas</p>
+            </div>
+            <div class="time-block">
+                <span id="minutes">00</span>
+                <p>Minutos</p>
+            </div>
+            <div class="time-block">
+                <span id="seconds">00</span>
+                <p>Segundos</p>
+            </div>
+        </div>
+
+        <div class="promo-cta">
+            <a href="https://wa.me/seu-numero?text=Quero+aproveitar+a+promocao" class="btn-primary glow big-btn">
+                <i data-lucide="zap"></i> GARANTIR MEU DESCONTO AGORA
+            </a>
+            <p class="spots-left">Restam apenas <strong>3 vagas</strong> para este mês.</p>
+        </div>
+    </div>
+</section>
+<section id="faq" class="faq container">
+    <div class="faq-header">
+        <span class="badge">Dúvidas Frequentes</span>
+        <h2>Perguntas que clientes <br><span>inteligentes fazem</span></h2>
+    </div>
+
+    <div class="faq-grid">
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>Por que preciso pagar uma entrada para começar?</h4>
+                <i data-lucide="chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <p>A entrada garante a reserva da sua vaga na minha agenda e cobre os custos iniciais de servidores, licenças de design e ferramentas premium. É o sinal de que ambos estamos comprometidos com o sucesso do projeto.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>"Vi um sobrinho que faz por R$ 200,00". Qual a diferença?</h4>
+                <i data-lucide="chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <p>A diferença está no lucro. Um site de R$ 200,00 é um custo; um site profissional é um investimento. Eu entrego estratégia de conversão, velocidade que o Google ama e um design que posiciona sua marca como líder de mercado.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>E se eu não gostar do design?</h4>
+                <i data-lucide="chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Nosso processo inclui uma etapa de aprovação de protótipo. Você verá como o site vai ficar antes de eu escrever a primeira linha de código final. Ajustamos até que a identidade da sua marca esteja impecável.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h4>Quanto tempo demora para o site ficar pronto?</h4>
+                <i data-lucide="chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Depende da complexidade, mas uma Landing Page estratégica costuma ser entregue em 7 a 10 dias úteis após o envio de todas as informações pelo cliente.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer id="contato">
+        <div class="container footer-content">
+            <p>&copy; 2024 Nykolas Perazzo. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i data-lucide="instagram"></i></a>
+                <a href="#"><i data-lucide="linkedin"></i></a>
+                <a href="#"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
