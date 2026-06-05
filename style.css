@@ -909,6 +909,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
 
   gap: 15px;
+  margin-right: 40px;
 }
 
 .about-stat {
