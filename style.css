@@ -4,7 +4,7 @@
 :root {
   --bg-main: #060608;
   --bg-container: #0a0a0c;
-  --accent-red: #e61e26;
+  --accent-red: #e61e1e;
   --accent-green: #00e676;
   --text-pure: #ffffff;
   --text-secondary: #c5c5c7;
@@ -357,6 +357,7 @@ body {
   font-size: 18px;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .availability-card__btn:hover {
@@ -1194,4 +1195,18 @@ section {
   .contact-title {
     font-size: 6rem;
   }
+}
+
+.skill-card,
+.project-card,
+.about-stat,
+.stat-item {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
